@@ -1,0 +1,84 @@
+.navHeaderIndex {
+  background: #2a41e8;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  display: flex;
+  padding: auto;
+  justify-content: space-between;
+}
+
+.articuleHeader {
+  display: flex;
+  padding: auto;
+  width: 600px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+}
+
+.navHeaderIndex button {
+  background: #2a41e8;
+  padding: auto;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.articuleHeader p {
+  padding: auto;
+  margin: auto;
+}
+
+.NavIndex2 {
+    display: flex;
+
+
+
+  height: 82px;
+  left: 0px;
+  top: 54px;
+  background: #FFFFFF;
+  
+}
+
+
+
+.NavIndex2 a {
+
+margin: auto;
+height: 17px;
+padding: auto;
+left: 0%;
+right: 0%;
+top: calc(50% - 17px/2);
+
+font-family: 'Rubik',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #4B4D4F;
+
+}
+
+
+.NavIndex2 h2{
+
+
+
+height: 33px;
+left: 22.37%;
+right: 15.77%;
+top: calc(50% - 33px/2 + 1.5px);
+
+    margin: auto;
+    padding: auto;
+    font-family: 'Rubik',  sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    color: #4B4D4F;
+}

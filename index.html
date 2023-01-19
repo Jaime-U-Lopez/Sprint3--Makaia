@@ -37,8 +37,8 @@
           <a href=""> HOMEPAGE </a>
           <a href=""> PROPERTIES </a>
           <a href=""> PAGES </a>
-          <a href=""> ABOUT </a>
-          <a href=""> CONTACT </a>
+          <a href="./pages/detalleHouse.html"> DETALL </a>
+          <a href="./pages/formCreateORUpdate.html"> CREATE </a>
           
         </nav>
 
@@ -69,10 +69,10 @@
 
               <span> Type </span>
     
-              <select>
-                <option>Hola</option>
-                <option>Hola</option>
-                <option>Hola</option>
+              <select  id="Type">
+                <option value="Other">Selection Option: </option>
+                <option value="House">House</option>
+                <option value="Apartament">Apartament</option>
               </select>
 
             </article>
@@ -80,10 +80,11 @@
             <article>
               
               <span> Status </span>
-              <select>
-                <option>Hola</option>
-                <option>Hola</option>
-                <option>Hola</option>
+
+              <select   id="status">
+                <option value="Other">Selection Option</option>
+                <option value="For sale">For Sale</option>
+                <option value="No For Sale">No For Sale</option>
               </select>
             </article>
             <input
@@ -101,41 +102,17 @@
           <h1>  <strong> Feactured </strong>    Properties</h1>
         </article>
 
-
-
-        <section class="ContenedorCard">
+        <section id="ContenedorCard" class="ContenedorCard">
           <article class="Card">
-            <img class="ImageCard" src="./image/ian-keefe-449093-unsplash.png" alt="" srcset="" />
-            <p>city</p>
-            <h3>nombre</h3>
-            <figure class="FigureBig">
-              <figure class="figureOne">
-                <figure>
-                  <img src="" alt="" srcset="" />
-                  <p>nombre vendedor</p>
-                </figure>
-                <p>4 minutos</p>
-              </figure>
-
-              <figure>
-                <figure class="figureTwo">
-                  <img src="" alt="" srcset="" />
-                  <p>metros cuadrasdos Sq Ft</p>
-                </figure>
-
-                <figure>
-                  <img src="" alt="" srcset="" />
-                  <p>parqueadero</p>
-                  <img src="" alt="" srcset="" />
-                  <p>bed</p>
-                  <img src="" alt="" srcset="" />
-                  <p>baño</p>
-                </figure>
-              </figure>
-            </figure>
+        
           </article>
         </section>
       </section>
     </main>
+
+    <script src="./script/index.js"  type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+
   </body>
 </html>

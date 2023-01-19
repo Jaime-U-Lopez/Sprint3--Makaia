@@ -75,7 +75,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
   letter-spacing: 1px;
 }
 
@@ -167,15 +166,13 @@
   /* centrado vertical */
   position: absolute;
   top: 30%;
-  left: 20%;
-  width: 65%;
+  left: 15%;
+  width: 73%;
 }
 
 .section2 h1 {
   margin: 0px;
-
   font-family: "Rubik", sans-serif;
-
   font-size: 42px;
   height: 50px;
   height: 100%;
@@ -255,9 +252,7 @@
   width: 214px;
   width: 30%;
   color: white;
-
   font-family: "Rubik", sans-serif;
-
   font-size: 18px;
   margin-right: 2%;
 }
@@ -269,14 +264,17 @@
 .sectionPart2 {
   display: flex;
   flex-direction: column;
+
   text-align: center;
   margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 10%;
+  width: 90%;
 }
 
 .sectionPart2 h3 {
   color: #8c8c8c;
   font-family: "Rubik", sans-serif;
-
   font-size: 14px;
 }
 
@@ -290,12 +288,301 @@
 
 .ContenedorCard {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ContenedorCard article {
+  flex-grow: 1;
+  min-width: 228px;
 }
 
 .Card {
+  
   width: 398px;
-  height: 519px;
+  height: 519px !important;
   border-radius: 4px;
-  border: solid 5px;
-  border-color: red;
+margin-top: 3%;
+  border-color: #ffffff;
+  text-align: left;
+  position: relative;
 }
+
+.Card :hover {
+  border: solid;
+  border-color: transparent;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.figureCero{
+
+  width: 398px;
+
+}
+
+
+.FigureCero img {
+  width: 398px;
+  position: relative;
+  object-fit: cover;
+  object-position: top;
+}
+
+.ImageCard {
+  width: 100%;
+  height: 278px;
+}
+
+.p {
+  position: absolute;
+  bottom: 85%;
+  left: 25px;
+  height: 30px !important;
+  background-color: #2a42e8;
+  max-width:  60px;
+  border-radius: 4px;
+  color: #ffffff  !important;
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+  padding-left: 1% !important;
+  margin: 0px;
+}
+
+.typeHouse {
+  position: absolute;
+  bottom: 85%;
+  left: 130px;
+  padding: auto;
+  background-color:  #FF5E15;
+  color: #ffffff !important;
+  max-width:  60px;
+  height: 30px !important;
+  border-radius: 4px;
+  padding-left: 1% !important;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+  margin: 0px;
+}
+
+.value {
+  position: absolute;
+  bottom: 45%;
+  left: 25px;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 4px;
+  color: black !important;
+}
+.ImageCard p {
+  width: 398px;
+}
+
+.figureCero {
+  width: 398px;
+  
+}
+
+.ImageCard img {
+  width: 100%;
+  height: 100%;
+}
+
+.Card p {
+  width: 105 px;
+  height: 17px;
+  color: #848484;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  margin-left: 26px;
+}
+
+.Card h3 {
+  width: 314 px;
+  height: 64px;
+  color: #848484;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+  color: #1d1d1d;
+
+  margin-left: 26px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.FigureBig {
+  margin: 0px;
+  background-color: #ffffff;
+  width: 398px;
+  margin-left: 5%;
+}
+
+.FigureBig2 {
+  justify-content: space-between;
+}
+.figureOne {
+  display: flex;
+  margin: 0;
+  color: #111111;
+  justify-content: space-between;
+  width: 398px;
+}
+
+.figureOneOne p {
+  margin: 5%;
+  color: #2a41e8;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.figureOne p {
+  width: 150px;
+}
+.figureOneOne {
+  display: flex;
+  margin: 0px;
+  color: #111111;
+}
+.figureOne img {
+  margin: 5%;
+  margin-left: 5%;
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+}
+
+.FigureBig2 {
+  display: flex;
+  margin: 0px;
+  margin-top: 5%;
+  width: 398px;
+}
+
+.figureTwo {
+  display: flex;
+  margin: 0px;
+  padding: auto;
+}
+
+.FigureBig3 {
+  display: flex;
+  margin: 0px;
+  margin-right: 5%;
+}
+
+.FigureBig3 img {
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+.ajusteP p {
+  margin: 0px;
+  color: #848484;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.figureTwo p {
+  margin: 0px;
+  color: #111111;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.figureTwo img {
+  width: 60px;
+  height: 30px;
+}
+
+.FigureBig3 p {
+  margin: 0px;
+  margin: auto;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #111111;
+}
+
+
+.ciudad{
+
+  width: 398px !important;
+}
+
+
+
+.card__delete, .card__edit, .card__favorite{
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  border: none;
+  display: none;
+  padding: 5px;
+}
+
+.card__delete:hover, .card__edit:hover, .card__favorite:hover{
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+
+.card__delete, .card__edit, .card__favorite{
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    top: 100px;
+    left:50px;
+    background-color: transparent;
+    border: none;
+    display: none;
+    padding: 5px;
+}
+
+.card__delete:hover, .card__edit:hover, .card__favorite:hover{
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.Card:hover .card__delete, .Card:hover .card__edit, .Card:hover .card__favorite{
+    display: block;
+}
+
+.card__edit{
+    top: 100px;
+    left: 100px  ;
+    transform: rotate(45deg);
+    color: yellow;
+}
+
+.card__edit:hover{
+    transform: rotate(45deg) scale(0.8);
+}
+
+.card__favorite{
+    top: 400px;
+    left: 250px;
+    color: red;
+}
+.Card:hover .card__delete, .main__card:hover .card__edit, .main__card:hover .card__favorite{
+  display: block;
+}
+
+
+.card__edit:hover{
+  transform: rotate(45deg) scale(0.8);
+}
+
+

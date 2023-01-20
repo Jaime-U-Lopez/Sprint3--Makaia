@@ -24,7 +24,8 @@ export  const printCardHouse= (contenedor, houseArray )=>{
         <h3 class="ciudad" >${house.nameHome }</h3>
 
         <button class="card__delete" name='${house.id}'>❌</button>
-        <button class="card__edit" name='${house.id}'>✏</button>
+        <button class="card__edit" name='${house.id}'>✏</button>  
+        <button class="card__favorite" name='${house.id}'>❤</button>
 
         </figure>
         <figure class="FigureBig">

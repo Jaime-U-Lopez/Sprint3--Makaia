@@ -62,7 +62,7 @@
 
           <p>Find the house of your dreams</p>
   
-          <form>
+          <form class="formSearch">
 
             <article>
               
@@ -88,10 +88,11 @@
               </select>
             </article>
             <input
+            id="search"
               type="search"
               placeholder="Searh for properties, suburbs or keywords"
             />
-            <button>FIND PROPERTIES</button>
+            <button  type="button" id="category">FIND PROPERTIES</button>
           </form>
         </section>
       </section>
@@ -104,10 +105,26 @@
 
         <section id="ContenedorCard" class="ContenedorCard">
           <article class="Card">
-        
+        <h1>Estamos Cargando la información, gracias por la espera</h1>
           </article>
         </section>
       </section>
+
+
+
+      <article class="Favorites">
+        
+        <h1>  <strong> House Favoritos  </strong> </h1>
+      </article>
+
+<article  id="containerCardFavorite" class="containerCardFavorite">
+  
+
+</article>
+
+
+
+
     </main>
 
     <script src="./script/index.js"  type="module"></script>

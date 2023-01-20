@@ -337,6 +337,8 @@ margin-top: 3%;
 
 .p {
   position: absolute;
+  padding-top: 10px;
+  padding-right: 10px;
   bottom: 85%;
   left: 25px;
   height: 30px !important;
@@ -354,6 +356,8 @@ margin-top: 3%;
 
 .typeHouse {
   position: absolute;
+  padding-top: 10px;
+  padding-right: 10px;
   bottom: 85%;
   left: 130px;
   padding: auto;
@@ -586,3 +590,28 @@ margin-top: 3%;
 }
 
 
+.Favorites{
+
+text-align: center;
+margin-top: 25%;
+margin: auto;
+font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+color: #ff5e14;
+
+}
+
+.containerCardFavorite{
+
+  display: flex;
+  margin-left: 10%;
+  padding: auto;
+  flex-wrap: wrap;
+}
+
+
+.containerCardFavorite .card__edit:hover{
+
+display: none;
+}

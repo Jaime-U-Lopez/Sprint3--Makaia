@@ -291,6 +291,7 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
+  margin-top: 2px;
 }
 
 .ContenedorCard article {
@@ -620,4 +621,126 @@ display: none;
 
 .Borrar{
   display: none;
+}
+
+
+
+.a{
+
+  margin: auto;
+  margin-left: 15px !important;
+flex-wrap: wrap;
+
+}
+
+.NavIndex3 a{
+  margin: auto;
+  margin-left: 15px !important;
+flex-wrap: wrap;
+ 
+}
+
+
+@media  (max-width: 600px) { 
+  
+
+  .NavIndex2 {
+    display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  }
+
+
+
+
+  
+
+.NavIndex3 {
+  display: flex;
+flex-wrap: wrap;
+font-size: 10px;
+}
+
+
+.sectionPart2{
+
+  margin: 0px;
+}
+
+.FigureBig{
+  width: 100%;
+  margin: 0px;
+}
+
+
+.FigureCero{
+
+  margin: 0px;
+  width: 100%;
+}
+
+
+.FigureCero img{
+width: 100%;
+  margin: 1px;
+}
+
+
+.containerCardFavorite{
+
+  margin: 0px;
+}
+
+
+.ciudad {
+
+  width: 90% !important;
+  margin: 1px !important;
+}
+
+
+#category{
+
+
+  font-size: 10px;
+}
+
+.FigureBig2{
+
+  width: 100%;
+}
+
+.figureOne{
+
+  width: 100%;
+}
+
+
+.sectionPart2{
+
+  margin-left: 15px !important;
+}
+
+
+.containerCardFavorite{
+
+  margin: 0px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.navHeaderIndex{
+
+  font-size: 14px;
+}
+
+.a{
+  margin: 0px !important;
+  margin-top: 15px !important;
+  margin-right: 25px !important;
+  margin-left: 15px !important;
+}
+
 }

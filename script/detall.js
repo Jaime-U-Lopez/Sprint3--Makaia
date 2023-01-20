@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       (detallHous) => detallHous.id === idDetallParseint
     );
     console.log(detallhouse);
-    printCardHouse(contenedorCard, detallhouse);
+    printCardHouse(contenedorCard, detallhouse,2);
   } catch (error) {
     console.log(error);
     alert(error);

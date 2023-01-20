@@ -29,3 +29,15 @@
 
 
 }
+
+
+.Borrar{
+    display: flex;
+    color: black;
+  }
+
+
+  .Borrar p{
+    color: black !important;
+  }
+  

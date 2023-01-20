@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     house = await getDateFetch(urlHouse);
     const allFavorite = await getDateFetch(urlFavoritosHouse);
-    printCardHouse(contenedorCard, house);
-    printCardHouse(contenedorCardFavorite, allFavorite);
+    printCardHouse(contenedorCard, house ,1);
+    printCardHouse(contenedorCardFavorite, allFavorite ,1);
   } catch (error) {
     console.log(error);
     alert(error);
